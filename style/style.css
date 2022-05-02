@@ -9,11 +9,11 @@
 }
 
 body {
-  background: #000;
+  background: #030202;
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -45,19 +45,32 @@ body {
   padding-bottom: 9px;
 }
 
-.header__social-link {
+.header__contacts {
   text-align: right;
 }
 
-.header__social-link a {
+.header__contacts a {
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
 }
 
-.header__social-link p {
+.header__contacts p {
   font-weight: 300;
   font-size: 20px;
   line-height: 23px;
+}
+
+.promo {
+  height: 890px;
+  background-image: url(/img/modern-sport-car.png);
+  -webkit-filter: drop-shadow(0px 0px 96px #000000);
+          filter: drop-shadow(0px 0px 96px #000000);
+}
+
+.promo-block {
+  background-image: url(/img/promo-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /*# sourceMappingURL=style.css.map */
